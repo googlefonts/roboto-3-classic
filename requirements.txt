@@ -13,7 +13,7 @@ glyphsLib==6.2.2
 lxml==4.9.2
 git+https://github.com/googlefonts/nototools@2aa38cca1c17d2262fbda706f68623f712dd446e
 openstep-plist==0.3.0.post1
-Pillow==9.5.0
+Pillow==10.3.0
 pycairo==1.24.0
 pyclipper==1.3.0.post4
 pyparsing==3.1.0
