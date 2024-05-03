@@ -12,7 +12,7 @@ curl -s https://api.github.com/repos/googlefonts/roboto-classic/releases/latest 
 | cut -d ":" -f 2,3 \
 | tr -d \"\, \
 | wget -i -
-unzip -po Roboto_*.zip "Roboto_v3.008/hinted/Roboto\[ital\,wdth\,wght\].ttf" > $OLD_FONT
+unzip -po Roboto_*.zip "Roboto_v3.009/hinted/Roboto\[ital\,wdth\,wght\].ttf" > $OLD_FONT
 
 
 # Diff old hinted variable font against current
