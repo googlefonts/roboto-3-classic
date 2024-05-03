@@ -7,6 +7,7 @@ mkdir -p fonts
 mkdir -p fonts/unhinted
 UNHINTED_VF_PATH=fonts/unhinted/Roboto[ital,wdth,wght].ttf
 fontmake -m sources/Roboto.designspace -o variable --output-path $UNHINTED_VF_PATH
+python scripts/set_overlaps.py $UNHINTED_VF_PATH
 python scripts/drop_mvar.py $UNHINTED_VF_PATH
 python scripts/gen_stat.py $UNHINTED_VF_PATH
 python scripts/instantiate_statics.py $UNHINTED_VF_PATH fonts/unhinted/static
