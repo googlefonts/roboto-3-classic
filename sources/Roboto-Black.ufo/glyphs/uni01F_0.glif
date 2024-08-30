@@ -5,6 +5,7 @@
   <anchor x="275" y="1269" name="parent_top"/>
   <anchor x="605" y="1269" name="top0315"/>
   <anchor x="275" y="1629" name="top"/>
+  <anchor x="190" y="-459" name="bottom"/>
   <outline>
     <component base="uni0237"/>
     <component base="caron" xOffset="-217" yOffset="-21"/>

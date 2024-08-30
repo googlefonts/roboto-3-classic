@@ -53,7 +53,7 @@ def main(argv):
     features_to_keep = [
         'c2sc', 'ccmp', 'cpsp', 'dlig', 'dnom', 'frac', 'kern', 'liga', 'lnum',
         'locl', 'numr', 'onum', 'pnum', 'smcp', 'ss01', 'ss02', 'ss03', 'ss04',
-        'ss05', 'ss06', 'ss07', 'tnum', 'sups', 'subs']
+        'ss05', 'ss06', 'ss07', 'tnum', 'sups', 'subs', 'mark', 'mkmk']
 
     source_filename = argv[1]
     target_filename = argv[2]

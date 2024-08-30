@@ -4,7 +4,7 @@ set -e
 
 mkdir -p prev_release
 
-OLD_FONT=prev_release/Roboto\[ital\,wdth\,wght\].ttf
+OLD_FONT=prev_release/hinted/Roboto\[ital\,wdth\,wght\].ttf
 GENNED_FONT=fonts/hinted/Roboto\[ital\,wdth\,wght\].ttf
 
 curl -s https://api.github.com/repos/googlefonts/roboto-classic/releases/latest \
@@ -12,7 +12,7 @@ curl -s https://api.github.com/repos/googlefonts/roboto-classic/releases/latest 
 | cut -d ":" -f 2,3 \
 | tr -d \"\, \
 | wget -i -
-unzip -po Roboto_*.zip "Roboto_v3.008/hinted/Roboto\[ital\,wdth\,wght\].ttf" > $OLD_FONT
+unzip Roboto_*.zip -d prev_release
 
 
 # Diff old hinted variable font against current
