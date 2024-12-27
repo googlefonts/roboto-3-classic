@@ -11,7 +11,7 @@ from scripts import (
 
 
 roman_instance = {
-    "attribs": {"usWidthClass": 5},
+    "attribs": {"usWidthClass": 3},
     "axes": {"wdth": 75},
     "filename": "RobotoCondensed[wght].ttf",
     "names": {
@@ -25,7 +25,7 @@ roman_instance = {
 }
 
 italic_instance = {
-    "attribs": {"usWidthClass": 5, "italicAngle": -12, "caretSlopeRise": 2048, "caretSlopeRun": 435},
+    "attribs": {"usWidthClass": 3, "italicAngle": -12, "caretSlopeRise": 2048, "caretSlopeRun": 435},
     "axes": {"wdth": 75},
     "filename": "RobotoCondensed-Italic[wght].ttf",
     "names": {
