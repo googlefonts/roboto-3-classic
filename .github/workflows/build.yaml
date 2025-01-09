@@ -32,7 +32,7 @@ jobs:
           sh scripts/regression_test.sh
 
       - name: Upload
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: roboto_files
           path: |
