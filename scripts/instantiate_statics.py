@@ -54,7 +54,7 @@ instances = [
         },
     },
     {
-        "attribs": {"fsSelection": 64, "macStyle": 0, "usWeightClass": 300, "usWidthClass": 5},
+        "attribs": {"fsSelection": 64, "macStyle": 0, "usWeightClass": 300, "usWidthClass": 3},
         "axes": {"ital": 0.0, "wdth": 75.0, "wght": 300},
         "filename": "RobotoCondensed-Light.ttf",
         "names": {
@@ -68,7 +68,7 @@ instances = [
         },
     },
     {
-        "attribs": {"fsSelection": 513, "macStyle": 2, "usWeightClass": 300, "italicAngle": -12, "usWidthClass": 5, "caretSlopeRise": 2048, "caretSlopeRun": 435},
+        "attribs": {"fsSelection": 513, "macStyle": 2, "usWeightClass": 300, "italicAngle": -12, "usWidthClass": 3, "caretSlopeRise": 2048, "caretSlopeRun": 435},
         "axes": {"ital": 1.0, "wdth": 75.0, "wght": 300},
         "filename": "RobotoCondensed-LightItalic.ttf",
         "names": {
@@ -108,7 +108,7 @@ instances = [
         },
     },
     {
-            "attribs": {"fsSelection": 64, "macStyle": 0, "usWeightClass": 400, "usWidthClass": 5},
+            "attribs": {"fsSelection": 64, "macStyle": 0, "usWeightClass": 400, "usWidthClass": 3},
         "axes": {"ital": 0.0, "wdth": 75.0, "wght": 400},
         "filename": "RobotoCondensed-Regular.ttf",
         "names": {
@@ -120,7 +120,7 @@ instances = [
         },
     },
     {
-        "attribs": {"fsSelection": 513, "macStyle": 2, "usWeightClass": 400, "italicAngle": -12, "usWidthClass": 5, "caretSlopeRise": 2048, "caretSlopeRun": 435},
+        "attribs": {"fsSelection": 513, "macStyle": 2, "usWeightClass": 400, "italicAngle": -12, "usWidthClass": 3, "caretSlopeRise": 2048, "caretSlopeRun": 435},
         "axes": {"ital": 1.0, "wdth": 75.0, "wght": 400},
         "filename": "RobotoCondensed-Italic.ttf",
         "names": {
@@ -144,7 +144,7 @@ instances = [
         },
     },
     {
-        "attribs": {"fsSelection": 64, "macStyle": 0, "usWeightClass": 500, "usWidthClass": 5},
+        "attribs": {"fsSelection": 64, "macStyle": 0, "usWeightClass": 500, "usWidthClass": 3},
         "axes": {"ital": 0.0, "wdth": 75.0, "wght": 500},
         "filename": "RobotoCondensed-Medium.ttf",
         "names": {
@@ -172,7 +172,7 @@ instances = [
         },
     },
     {
-        "attribs": {"fsSelection": 513, "macStyle": 2, "usWeightClass": 500, "italicAngle": -12, "usWidthClass": 5, "caretSlopeRise": 2048, "caretSlopeRun": 435},
+        "attribs": {"fsSelection": 513, "macStyle": 2, "usWeightClass": 500, "italicAngle": -12, "usWidthClass": 3, "caretSlopeRise": 2048, "caretSlopeRun": 435},
         "axes": {"ital": 1.0, "wdth": 75.0, "wght": 500},
         "filename": "RobotoCondensed-MediumItalic.ttf",
         "names": {
@@ -200,7 +200,7 @@ instances = [
         },
     },
     {
-        "attribs": {"fsSelection": 32, "macStyle": 1, "usWeightClass": 700, "usWidthClass": 5},
+        "attribs": {"fsSelection": 32, "macStyle": 1, "usWeightClass": 700, "usWidthClass": 3},
         "axes": {"ital": 0.0, "wdth": 75.0, "wght": 700},
         "filename": "RobotoCondensed-Bold.ttf",
         "names": {
@@ -224,7 +224,7 @@ instances = [
         },
     },
     {
-        "attribs": {"fsSelection": 545, "macStyle": 3, "usWeightClass": 700, "italicAngle": -12, "usWidthClass": 5, "caretSlopeRise": 2048, "caretSlopeRun": 435},
+        "attribs": {"fsSelection": 545, "macStyle": 3, "usWeightClass": 700, "italicAngle": -12, "usWidthClass": 3, "caretSlopeRise": 2048, "caretSlopeRun": 435},
         "axes": {"ital": 1.0, "wdth": 75.0, "wght": 700},
         "filename": "RobotoCondensed-BoldItalic.ttf",
         "names": {
@@ -289,4 +289,3 @@ for inst in instances:
     del instance['STAT']
     out_path = os.path.join(sys.argv[2], inst["filename"])
     instance.save(out_path)
-
