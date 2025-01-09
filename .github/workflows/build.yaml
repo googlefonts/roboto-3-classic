@@ -16,7 +16,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          sudo apt install libharfbuzz-dev libharfbuzz-bin
+          sudo apt install libharfbuzz-dev libharfbuzz-bin libcairo2-dev
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           pip install .
