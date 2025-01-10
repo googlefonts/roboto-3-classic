@@ -12,11 +12,11 @@ jobs:
         uses: actions/setup-python@v1
         with:
           # TODO use build matrix?
-          python-version: 3.8
+          python-version: 3.10.16
 
       - name: Install dependencies
         run: |
-          sudo apt install libharfbuzz-dev libharfbuzz-bin
+          sudo apt install libharfbuzz-dev libharfbuzz-bin libcairo2-dev jq
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           pip install .
@@ -32,7 +32,7 @@ jobs:
           sh scripts/regression_test.sh
 
       - name: Upload
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: roboto_files
           path: |
