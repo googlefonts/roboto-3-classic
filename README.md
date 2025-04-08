@@ -62,7 +62,6 @@ This family is intended for the Android operating system. It includes the follow
 
 - No glyph hints
 - First 32 control characters in the ASCII encoding
-- Hinting
 - Modified vertical metrics
 
 
