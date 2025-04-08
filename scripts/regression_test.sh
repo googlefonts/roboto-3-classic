@@ -4,7 +4,7 @@ set -e
 
 mkdir -p prev_release
 
-OLD_FONT="prev_release/*/hinted/Roboto\[ital\,wdth\,wght\].ttf"
+OLD_FONT="prev_release/hinted/Roboto\[ital\,wdth\,wght\].ttf"
 GENNED_FONT=fonts/hinted/Roboto\[ital\,wdth\,wght\].ttf
 
 DL_URL=$(curl https://api.github.com/repositories/86081751/releases/latest | jq -r .assets[0].browser_download_url)
