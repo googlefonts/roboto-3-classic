@@ -41,6 +41,52 @@ If you would like to make modifications to the hints using VTT, you'll need to d
 
 Warning: vttLib doesn't support transformed composites. Please ensure source files do not contain them.
 
+## Family variants
+
+Roboto provides the following sibling families:
+
+
+**Unhinted**
+
+This family will work well for platforms that don't require hinting such as Mac OS. This is the first family that gets built. The rest of the families are based on this one.
+
+
+**Hinted**
+
+This family is intended for operating systems that use hinting such as MS Windows. The hints have been created in VTT by Mike Duggan.
+
+
+**Android**
+
+This family is intended for the Android operating system. It includes the following changes:
+
+- No glyph hints
+- First 32 control characters in the ASCII encoding
+- Modified vertical metrics
+
+
+**ChromesOS**
+
+This family is intended for the ChromeOS operating system. It includes the following changes:
+
+- Glyph hints
+- Modified vertical metrics
+- No bits enabled for Oblique
+
+
+**Web**
+
+This family is intended for use on the web. It includes the following changes:
+
+- Glyph hints
+- Modified vertical metrics
+- Smaller character set
+- Thin OS/2.usWeightClass set to 250
+- Updated GASP table with different ranges
+- No bits enabled for Oblique
+
+It is advisable to use the Roboto webfonts that are available at https://fonts.google.com/specimen/Roboto instead.
+
 
 # License
 
