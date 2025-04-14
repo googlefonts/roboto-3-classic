@@ -6,7 +6,7 @@ compreffor==0.5.3
 fontdiffenator==0.9.13
 fontmake==3.6.0
 fontMath==0.9.3
-fonttools==4.40.0
+fonttools==4.43.0
 freetype-py==2.4.0
 fs==2.4.16
 glyphsLib==6.2.2
