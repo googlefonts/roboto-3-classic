@@ -6888,6 +6888,8 @@
       <string>Uogonek.unic</string>
       <string>uni1E2D.ccmp</string>
       <string>uni1ECB.ccmp</string>
+      <string>uni2028</string>
+      <string>uni2029</string>
     </array>
   </dict>
 </plist>
