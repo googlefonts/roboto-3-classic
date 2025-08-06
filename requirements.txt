@@ -23,10 +23,9 @@ fontMath==0.9.4
 fonttools==4.59.0
 freetype-py==2.5.1
 gflanguages==0.7.6
-glyphsets==1.1.0
 gitdb==4.0.12
 GitPython==3.1.45
-glyphsets==1.1.0
+glyphsets==0.5.0
 glyphsLib==6.11.4
 idna==3.10
 kurbopy==0.11.1
