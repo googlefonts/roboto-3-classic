@@ -39,7 +39,7 @@ markdown-it-py==3.0.0
 MarkupSafe==2.1.5
 mdurl==0.1.2
 munkres==1.1.4
-nototools==0.2.0
+git+https://github.com/googlefonts/nototools@2aa38cca1c17d2262fbda706f68623f712dd446e
 openstep-plist==0.3.0.post1
 opentype-sanitizer==9.1.0
 opentypespec==1.9.1
