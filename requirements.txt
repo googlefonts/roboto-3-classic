@@ -23,6 +23,7 @@ fontMath==0.9.4
 fonttools==4.59.0
 freetype-py==2.5.1
 gflanguages==0.7.6
+glyphsets==1.1.0
 gitdb==4.0.12
 GitPython==3.1.45
 glyphsets==1.1.0
