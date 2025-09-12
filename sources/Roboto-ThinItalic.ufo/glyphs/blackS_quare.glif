@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="blackSquare" format="2">
+  <advance width="1237"/>
+  <unicode hex="25A0"/>
+  <note>
+filledbox
+</note>
+  <outline>
+    <contour>
+      <point x="147" y="0" type="line"/>
+      <point x="1089" y="0" type="line"/>
+      <point x="1089" y="943" type="line"/>
+      <point x="147" y="943" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025-09-12 13:10:41 +0000</string>
+    </dict>
+  </lib>
+</glyph>

@@ -6776,5 +6776,11 @@
     <string>zeta.glif</string>
     <key>zrthook</key>
     <string>zrthook.glif</string>
+    <key>blackCircle</key>
+    <string>blackC_ircle.glif</string>
+    <key>blackSquare</key>
+    <string>blackS_quare.glif</string>
+    <key>whiteCircle</key>
+    <string>whiteC_ircle.glif</string>
   </dict>
 </plist>
