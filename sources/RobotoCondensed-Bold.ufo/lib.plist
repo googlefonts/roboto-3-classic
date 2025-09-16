@@ -6902,6 +6902,9 @@
       <string>Uogonek.unic</string>
       <string>uni1E2D.ccmp</string>
       <string>uni1ECB.ccmp</string>
+      <string>uni25CF</string>
+      <string>filledbox</string>
+      <string>circle</string>
     </array>
   </dict>
 </plist>
