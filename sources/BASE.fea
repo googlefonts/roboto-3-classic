@@ -1,0 +1,15 @@
+# Implementation in fontTools
+# https://github.com/fonttools/fonttools/pull/3783
+# Syntax documentation
+# https://adobe-type-tools.github.io/afdko/OpenTypeFeatureFileSpecification.html#9a-base-table
+
+table BASE {
+   # VIT is the OpenType tag for Vietnamese
+   # https://learn.microsoft.com/en-us/typography/opentype/spec/languagetags
+   # Numbers come from the work to make GS Flex subsets for Android:
+   # https://github.com/googlefonts/pixel-brand-fallback-stack/blob/hello-world/scripts/google_sans_unmerge_subsets.py#L271-L302
+   HorizAxis.BaseTagList romn;
+   HorizAxis.BaseScriptList latn romn 0;
+   HorizAxis.MinMax latn dflt -572, 1932;
+   HorizAxis.MinMax latn VIT  -572, 2304;
+} BASE;
