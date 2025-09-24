@@ -49,7 +49,7 @@ def update_fvar(ttfont):
     for instance in fvar.instances:
         instance_style = nametable.getName(instance.subfamilyNameID, 3, 1, 1033).toUnicode()
         ps_name = f"{family_name}-{instance_style.replace(' ', '')}"
-        instance.postscriptNameID = _addName(nametable, ps_name, 256)
+        instance.postscriptNameID = _addName(ttfont, ps_name, 256)
 
 
 def main():

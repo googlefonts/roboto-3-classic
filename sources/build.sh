@@ -15,7 +15,7 @@ python scripts/instantiate_statics.py $UNHINTED_VF_PATH fonts/unhinted/static
 # Make Android
 mkdir -p fonts/android
 ANDROID_VF_PATH=fonts/android/Roboto[ital,wdth,wght].ttf
-subset.py $UNHINTED_VF_PATH $ANDROID_VF_PATH
+python scripts/subset.py $UNHINTED_VF_PATH $ANDROID_VF_PATH
 python scripts/touchup_for_android.py $ANDROID_VF_PATH
 python scripts/instantiate_statics.py $ANDROID_VF_PATH fonts/android/static
 for font in $(ls fonts/android/static/*.ttf)
@@ -62,7 +62,7 @@ done
 # Make ChromeOS
 mkdir -p fonts/chromeos
 CHROMEOS_VF_PATH=fonts/chromeos/Roboto[ital,wdth,wght].ttf
-subset.py $HINTED_VF_PATH $CHROMEOS_VF_PATH
+python scripts/subset.py $HINTED_VF_PATH $CHROMEOS_VF_PATH
 python scripts/touchup_for_cros.py $CHROMEOS_VF_PATH
 python scripts/instantiate_statics.py $CHROMEOS_VF_PATH fonts/chromeos/static
 for font in $(ls fonts/chromeos/static/*.ttf)

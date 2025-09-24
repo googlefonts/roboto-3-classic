@@ -1023,3 +1023,5 @@ feature sups {
 feature subs {
    sub @frac1 by @subs;
 } subs;
+
+include(BASE.fea);
