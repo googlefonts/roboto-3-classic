@@ -65,7 +65,7 @@ This family is intended for the Android operating system. It includes the follow
 - Modified vertical metrics
 
 
-**ChromesOS**
+**ChromeOS**
 
 This family is intended for the ChromeOS operating system. It includes the following changes:
 
