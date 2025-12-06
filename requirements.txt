@@ -65,7 +65,7 @@ ufolint==1.2.0
 ufomerge==1.9.5
 uharfbuzz==0.51.1
 unicodedata2==16.0.0
-urllib3==2.5.0
+urllib3==2.6.0
 vharfbuzz==0.3.1
 vttLib==0.12.0
 youseedee==0.7.0
