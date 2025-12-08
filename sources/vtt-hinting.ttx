@@ -14522,6 +14522,23 @@ IUP[X]
 
     </glyphProgram>
 
+    <glyphProgram name="riyalSaudi">
+/* VTT 6.35 compiler */
+SVTCA[Y]
+MDAP[R], 16
+MDAP[R], 8
+SHP[1], 28
+SRP1[], 16
+SHP[1], 24
+SRP1[], 8
+SHP[1], 36
+SRP1[], 16
+SHP[1], 32
+IUP[Y]
+IUP[X]
+
+    </glyphProgram>
+
     <glyphProgram name="romaneight">
 /* VTTTalk Unicode 0x2167 */
 /* ACT generated Thu Dec  5 13:36:29 2019 */
@@ -65499,6 +65516,35 @@ Smooth()
 
     </glyphProgram>
 
+    <glyphProgram name="riyalSaudi">
+/* VTTTalk Unicode 0x20c1 */
+/* ACT generated Fri Dec  5 13:39:13 2025 */
+
+/* Auto-Hinting Light */
+
+/* ***Settings*** */
+/* ModeHinting = LightLatin */
+/* ToAnchorBottom = true */
+
+
+/* CVT 8 17  DISABLED for a NON-LATIN glyph */
+/* CVT 16 19  DISABLED for a NON-LATIN glyph */
+/* Min and Max */
+YAnchor(16)	/* min */
+YAnchor(8)	/* max */
+
+/* Contour #2 */
+YShift(8,28) /* max */
+YShift(16,24) /* min */
+
+/* Contour #3 */
+YShift(8,36) /* max */
+YShift(16,32) /* min */
+
+Smooth()
+
+    </glyphProgram>
+
     <glyphProgram name="rrthook">
 /* Y direction */
 YAnchor(14)
@@ -92061,6 +92107,7 @@ Smooth()
     <glyphgroup name="ringrighthalfsubnosp" value="1"/>
     <glyphgroup name="ringsubnosp" value="1"/>
     <glyphgroup name="ringsubnosp_uni1ABD" value="1"/>
+    <glyphgroup name="riyalSaudi" value="1"/>
     <glyphgroup name="romaneight" value="1"/>
     <glyphgroup name="romaneleven" value="1"/>
     <glyphgroup name="romanfifty" value="1"/>
@@ -94453,7 +94500,7 @@ Smooth()
   <maxp>
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="0x10000"/>
-    <numGlyphs value="3390"/>
+    <numGlyphs value="3391"/>
     <maxPoints value="336"/>
     <maxContours value="21"/>
     <maxCompositePoints value="118"/>
