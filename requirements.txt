@@ -20,7 +20,7 @@ fontbakery==0.8.9
 fontdiffenator==0.9.13
 fontmake==3.10.1
 fontMath==0.9.4
-fonttools==4.59.0
+fonttools==4.61.0
 freetype-py<2.4.0  # see: https://github.com/fonttools/fontbakery/issues/4143
 gflanguages==0.7.6
 gitdb==4.0.12
