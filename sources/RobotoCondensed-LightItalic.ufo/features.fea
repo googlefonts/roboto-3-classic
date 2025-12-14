@@ -1024,4 +1024,8 @@ feature subs {
    sub @frac1 by @subs;
 } subs;
 
+feature calt {
+  sub [ @LNUM @PNUM ] colon' [ @LNUM @PNUM ] by colon.pnum;
+} calt;
+
 include(BASE.fea);
