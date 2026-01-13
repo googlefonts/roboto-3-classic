@@ -14,7 +14,7 @@ commandlines==0.4.1
 compreffor==0.5.6
 defcon==0.12.2
 dehinter==4.0.0
-filelock==3.18.0
+filelock==3.20.3
 font-v==2.1.0
 fontbakery==0.8.9
 fontdiffenator==0.9.13
