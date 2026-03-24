@@ -137,7 +137,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Roboto" stylename="ExtraLight">
+        <instance familyname="Roboto" stylename="ExtraLight" filename="Roboto-ExtraLight.ufo">
             <location>
                 <dimension name="weight" xvalue="-0.825000" />
                 <dimension name="width" xvalue="100" />
@@ -173,7 +173,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Roboto" stylename="SemiBold">
+        <instance familyname="Roboto" stylename="SemiBold" filename="Roboto-SemiBold.ufo">
             <location>
                 <dimension name="weight" xvalue="0.540000" />
                 <dimension name="width" xvalue="100" />
@@ -191,7 +191,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Roboto" stylename="ExtraBold">
+        <instance familyname="Roboto" stylename="ExtraBold" filename="Roboto-ExtraBold.ufo">
             <location>
                 <dimension name="weight" xvalue="0.9275" />
                 <dimension name="width" xvalue="100" />
@@ -218,7 +218,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Roboto" stylename="ExtraLight Italic">
+        <instance familyname="Roboto" stylename="ExtraLight Italic" filename="Roboto-ExtraLightItalic.ufo">
             <location>
                 <dimension name="weight" xvalue="-0.825000" />
                 <dimension name="width" xvalue="100" />
@@ -254,7 +254,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Roboto" stylename="SemiBold Italic">
+        <instance familyname="Roboto" stylename="SemiBold Italic" filename="Roboto-SemiBoldItalic.ufo">
             <location>
                 <dimension name="weight" xvalue="0.540000" />
                 <dimension name="width" xvalue="100" />
@@ -272,7 +272,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Roboto" stylename="ExtraBold Italic">
+        <instance familyname="Roboto" stylename="ExtraBold Italic" filename="Roboto-ExtraBoldItalic.ufo">
             <location>
                 <dimension name="weight" xvalue="0.9275" />
                 <dimension name="width" xvalue="100" />
@@ -300,7 +300,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Roboto" stylename="Condensed ExtraLight">
+        <instance familyname="Roboto" stylename="Condensed ExtraLight" filename="RobotoCondensed-ExtraLight.ufo">
             <location>
                 <dimension name="weight" xvalue="-0.825000" />
                 <dimension name="width" xvalue="75" />
@@ -336,7 +336,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Roboto" stylename="Condensed SemiBold">
+        <instance familyname="Roboto" stylename="Condensed SemiBold" filename="RobotoCondensed-SemiBold.ufo">
             <location>
                 <dimension name="weight" xvalue="0.540000" />
                 <dimension name="width" xvalue="75" />
@@ -354,7 +354,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Roboto" stylename="Condensed ExtraBold">
+        <instance familyname="Roboto" stylename="Condensed ExtraBold" filename="RobotoCondensed-ExtraBold.ufo">
             <location>
                 <dimension name="weight" xvalue="0.9275" />
                 <dimension name="width" xvalue="75" />
@@ -363,7 +363,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Roboto" stylename="Condensed Black">
+        <instance familyname="Roboto" stylename="Condensed Black" filename="RobotoCondensed-Black.ufo">
             <location>
                 <dimension name="weight" xvalue="1.125000" />
                 <dimension name="width" xvalue="75" />
@@ -373,17 +373,8 @@
             <info />
         </instance>
         
-        <instance familyname="Roboto" stylename="Condensed Thin Italic">
-            <location>
-                <dimension name="weight" xvalue="-1" />
-                <dimension name="width" xvalue="75" />
-                <dimension name="italic" xvalue="1" />
-            </location>
-            <kerning />
-            <info />
-        </instance>
         
-        <instance familyname="Roboto" stylename="Condensed ExtraLight Italic">
+        <instance familyname="Roboto" stylename="Condensed ExtraLight Italic" filename="RobotoCondensed-ExtraLightItalic.ufo">
             <location>
                 <dimension name="weight" xvalue="-0.825000" />
                 <dimension name="width" xvalue="75" />
@@ -421,7 +412,7 @@
             <info />
         </instance>
         
-        <instance familyname="Roboto" stylename="Condensed SemiBold Italic">
+        <instance familyname="Roboto" stylename="Condensed SemiBold Italic" filename="RobotoCondensed-SemiBoldItalic.ufo">
             <location>
                 <dimension name="weight" xvalue="0.540000" />
                 <dimension name="width" xvalue="75" />
@@ -441,7 +432,7 @@
             <info />
         </instance>
         
-        <instance familyname="Roboto" stylename="Condensed ExtraBold Italic">
+        <instance familyname="Roboto" stylename="Condensed ExtraBold Italic" filename="RobotoCondensed-ExtraBoldItalic.ufo">
             <location>
                 <dimension name="weight" xvalue="0.9275" />
                 <dimension name="width" xvalue="75" />
@@ -450,8 +441,8 @@
             <kerning />
             <info />
         </instance>
-        
-        <instance familyname="Roboto" stylename="Condensed Black Italic">
+
+        <instance familyname="Roboto" stylename="Condensed Black Italic" filename="RobotoCondensed-BlackItalic.ufo">
             <location>
                 <dimension name="weight" xvalue="1.125000" />
                 <dimension name="width" xvalue="75" />
@@ -460,7 +451,6 @@
             <kerning />
             <info />
         </instance>
-
 
     </instances>
     
