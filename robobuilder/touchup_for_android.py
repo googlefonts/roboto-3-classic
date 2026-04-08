@@ -1,7 +1,6 @@
 """Android-specific font touchups."""
 import sys
 from fontTools.ttLib import TTFont
-from nototools import font_data
 from robobuilder.utils import (
     ANDROID_AND_CROS_VERT_METRICS,
     update_attribs,
@@ -26,11 +25,9 @@ def main(font_path):
                 continue
             table.cmap[uni] = "uni0002"
 
-    font_data.delete_from_cmap(font, [
-        0x20E3,  # COMBINING ENCLOSING KEYCAP
-        0x2191,  # UPWARDS ARROW
-        0x2193,  # DOWNWARDS ARROW
-    ])
+    for table in font["cmap"].tables:
+        for cp in [0x20E3, 0x2191, 0x2193]:
+            table.cmap.pop(cp, None)
     update_attribs(font, **ANDROID_AND_CROS_VERT_METRICS)
     update_psname_and_fullname(font, include_year=True)
     update_font_version(font)

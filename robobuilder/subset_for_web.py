@@ -1,7 +1,7 @@
 """Subset a font for web delivery using a predefined character list."""
 import sys
 from pathlib import Path
-from nototools import subset
+from fontTools import subset
 
 
 def read_charlist(filename):
@@ -31,10 +31,23 @@ def main(source_filename, target_filename):
         'locl', 'numr', 'onum', 'pnum', 'smcp', 'ss01', 'ss02', 'ss03', 'ss04',
         'ss05', 'ss06', 'ss07', 'tnum', 'sups', 'subs', 'mark', 'mkmk']
 
-    subset.subset_font(
-        source_filename, target_filename,
-        include=charlist,
-        options={'layout_features': features_to_keep})
+    opt = subset.Options()
+    opt.name_IDs = ['*']
+    opt.name_legacy = True
+    opt.name_languages = ['*']
+    opt.layout_features = features_to_keep
+    opt.notdef_outline = True
+    opt.recalc_bounds = True
+    opt.recalc_timestamp = True
+    opt.canonical_order = True
+    opt.drop_tables = ['+TTFA']
+    opt.no_subset_tables += ['BASE']
+
+    font = subset.load_font(source_filename, opt)
+    subsetter = subset.Subsetter(options=opt)
+    subsetter.populate(unicodes=charlist)
+    subsetter.subset(font)
+    subset.save_font(font, target_filename, opt)
 
 
 if __name__ == '__main__':

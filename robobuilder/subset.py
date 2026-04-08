@@ -1,7 +1,14 @@
 """Subset a font, dropping unused parts while preserving layout features."""
 import sys
 from fontTools import subset
-from nototools import coverage
+from fontTools.ttLib import TTFont
+
+
+def character_set(font_path):
+    """Get the set of Unicode codepoints covered by a font."""
+    font = TTFont(font_path)
+    cmap = font.getBestCmap()
+    return set(cmap.keys())
 
 
 def subset_font(source_file, target_file,
@@ -31,7 +38,7 @@ def subset_font(source_file, target_file,
     else:
         if exclude is None:
             exclude = []
-        source_charset = coverage.character_set(source_file)
+        source_charset = character_set(source_file)
         target_charset = source_charset - set(exclude)
 
     font = subset.load_font(source_file, opt)
