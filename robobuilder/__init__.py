@@ -35,8 +35,13 @@ class RoboBuilder(RecipeProviderBase):
         self.recipe[target] = [
             {"source": source},
             {"operation": "buildVariable"},
-            self._post(f"-m robobuilder.drop_mvar {target}"),
-            self._post(f"-m robobuilder.gen_stat {target}"),
+            # Regular exec so the target file is only ready when fully processed.
+            # Other recipes that use unhinted as a source will wait for this.
+            {
+                "operation": "exec",
+                "exe": PYTHON,
+                "args": "-m robobuilder.postprocess_unhinted $in $out",
+            },
             self._post(f"-m robobuilder.instantiate_statics {target} {static_dir}"),
         ]
 
@@ -66,8 +71,14 @@ class RoboBuilder(RecipeProviderBase):
                 "exe": PYTHON,
                 "args": "-m robobuilder.apply_vtt $in $out vtt-hinting.ttx",
             },
-            self._post(f"-m robobuilder.touchup_for_web {target}"),
-            self._post(f"-m robobuilder.instantiate_statics {target} {static_dir}"),
+            {
+                "operation": "exec",
+                "exe": PYTHON,
+                "args": "-m robobuilder.touchup_for_web $in $out",
+            },
+            self._post(
+                f"-m robobuilder.instantiate_statics {target} {static_dir}"
+            ),
         ]
 
     def _build_web(self, source, target):
@@ -106,7 +117,9 @@ class RoboBuilder(RecipeProviderBase):
                 "args": "-m robobuilder.subset $in $out",
             },
             self._post(f"-m robobuilder.touchup_for_cros {target}"),
-            self._post(f"-m robobuilder.instantiate_statics {target} {static_dir}"),
+            self._post(
+                f"-m robobuilder.instantiate_statics {target} {static_dir}"
+            ),
             self._post(
                 f"-m robobuilder.touchup_statics"
                 f" robobuilder.touchup_for_cros {static_dir}"

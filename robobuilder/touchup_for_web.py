@@ -11,7 +11,7 @@ from robobuilder.utils import (
 )
 
 
-def main(font_path):
+def main(font_path, output_path=None):
     font = TTFont(font_path)
     filename = Path(font_path).name
     # Set usWeightClass to 250 for Thin fonts
@@ -32,8 +32,8 @@ def main(font_path):
     update_gasp(font, {8: 8, 65535: 15})
     disable_oblique_bits(font)
     update_font_version(font)
-    font.save(font_path)
+    font.save(output_path or font_path)
 
 
 if __name__ == "__main__":
-    main(sys.argv[1])
+    main(*sys.argv[1:])
