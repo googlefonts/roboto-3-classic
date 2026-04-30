@@ -30,6 +30,23 @@ class RoboBuilder(RecipeProviderBase):
     def _post(self, args):
         return {"postprocess": "exec", "exe": PYTHON, "args": args}
 
+    def fontmake_args(self, source, variable=False):
+        return ""
+
+    def build_all_variables(self):
+        for source in self.sources:
+            self.build_a_variable(source)
+
+    def build_a_variable(self, source):
+        target = self._vf_filename(source, roman=True)
+        steps = [{"source": source.path}] + [
+            {
+                "operation": "buildVariable",
+                "args": self.fontmake_args(source, variable=True),
+            },
+        ]
+        self.recipe[target] = steps
+
     def _build_unhinted(self, source, target):
         static_dir = str(FONTS_DIR / "unhinted" / "static")
         self.recipe[target] = [
