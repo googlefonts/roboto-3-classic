@@ -23,7 +23,7 @@ jobs:
           pip install .
 
       - name: Build fonts
-        run: sh sources/build.sh
+        run: gftools builder sources/config.yaml
 
       - name: Test fonts
         run: |
