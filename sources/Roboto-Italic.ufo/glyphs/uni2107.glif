@@ -11,6 +11,8 @@
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
       <string>uni0190</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/05/26 11:26:23</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Uppercase</string>
       <key>public.markColor</key>

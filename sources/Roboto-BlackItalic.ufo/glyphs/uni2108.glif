@@ -37,10 +37,10 @@
       <point x="200.126" y="-15.426"/>
     </contour>
     <contour>
+      <point x="464.304" y="593.094" type="line"/>
       <point x="1076.519" y="593.077" type="line"/>
       <point x="1124.055" y="863.906" type="line"/>
       <point x="511.84" y="863.922" type="line"/>
-      <point x="464.304" y="593.094" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -48,7 +48,7 @@
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Symbol</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2026-05-27 10:56:58 +0000</string>
+      <string>2026/06/02 09:58:54</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Other</string>
       <key>public.markColor</key>

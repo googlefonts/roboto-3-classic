@@ -10,28 +10,33 @@
   <anchor x="422" y="1600" name="top0315"/>
   <anchor x="422" y="1600" name="top_dd"/>
   <outline>
-    <component base="i" identifier="09313FF8"/>
+    <component base="i"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>i</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Symbol</string>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>i</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>i</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/05/26 11:26:23</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Other</string>
       <key>public.markColor</key>
       <string>0.04,0.57,0.04,1</string>
-      <key>public.objectLibs</key>
-      <dict>
-        <key>09313FF8</key>
-        <dict>
-          <key>com.schriftgestaltung.alignment</key>
-          <integer>-1</integer>
-        </dict>
-      </dict>
     </dict>
   </lib>
 </glyph>
