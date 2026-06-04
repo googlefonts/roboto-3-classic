@@ -10,15 +10,15 @@
   <anchor x="253.682" y="1864" name="top_dd"/>
   <outline>
     <contour>
+      <point x="-33" y="3" type="line"/>
+      <point x="35" y="2" type="line"/>
+      <point x="677" y="853" type="line"/>
       <point x="1018" y="0" type="line"/>
       <point x="1087" y="0" type="line"/>
       <point x="709" y="899" type="line"/>
       <point x="805" y="1457" type="line"/>
       <point x="751" y="1457" type="line"/>
       <point x="657" y="908" type="line"/>
-      <point x="-33" y="3" type="line"/>
-      <point x="35" y="2" type="line"/>
-      <point x="677" y="853" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -30,7 +30,7 @@
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>Y</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2026/06/01 15:11:51</string>
+      <string>2026/06/04 08:37:18</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Math</string>
       <key>public.markColor</key>
