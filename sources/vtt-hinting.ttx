@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="4.40">
+<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="4.62">
 
   <TSI1>
 
@@ -40271,6 +40271,38 @@ IUP[X]
 
     </glyphProgram>
 
+    <glyphProgram name="uni20BF">
+/* VTT 6.35 compiler */
+SVTCA[Y]
+MDAP[R], 20
+MDAP[R], 50
+SRP2[], 20
+IP[], 1
+MDAP[R], 1
+CALL[], 1, 48, 106
+SRP1[], 50
+SRP2[], 20
+IP[], 38
+MDAP[R], 38
+CALL[], 38, 39, 106
+SRP1[], 50
+SRP2[], 20
+IP[], 0
+MDAP[R], 0
+CALL[], 0, 28, 106
+SRP1[], 38
+SHP[1], 25
+SRP1[], 20
+SHP[1], 24
+SRP1[], 50
+SHP[1], 54
+SRP1[], 38
+SHP[1], 53
+IUP[Y]
+IUP[X]
+
+    </glyphProgram>
+
     <glyphProgram name="uni20DB">
 /* VTTTalk Unicode 0x20db */
 /* ACT generated Thu Dec  5 13:36:29 2019 */
@@ -40325,6 +40357,21 @@ IUP[X]
 
     </glyphProgram>
 
+    <glyphProgram name="uni2104">
+/* VTT 6.35 compiler */
+SVTCA[Y]
+MDAP[R], 0
+MDAP[R], 9
+CALL[], 0, 27, 106
+SRP1[], 9
+SHP[1], 31
+SRP1[], 0
+SHP[1], 30
+IUP[Y]
+IUP[X]
+
+    </glyphProgram>
+
     <glyphProgram name="uni2105">
 /* VTT 6.35 compiler */
 SVTCA[Y]
@@ -40347,6 +40394,22 @@ IUP[X]
 
     </glyphProgram>
 
+    <glyphProgram name="uni2108">
+/* VTT 6.35 compiler */
+SVTCA[Y]
+MDAP[R], 0
+MDAP[R], 30
+CALL[], 30, 21, 106
+SRP2[], 0
+IP[], 41
+MDAP[R], 41
+CALL[], 41, 42, 106
+CALL[], 0, 9, 106
+IUP[Y]
+IUP[X]
+
+    </glyphProgram>
+
     <glyphProgram name="uni2113">
 /* VTT 6.35 compiler */
 SVTCA[Y]
@@ -40357,6 +40420,30 @@ SHP[1], 36
 SRP2[], 1
 IP[], 24
 MDAP[R], 24
+SHP[1], 25
+IUP[Y]
+IUP[X]
+
+    </glyphProgram>
+
+    <glyphProgram name="uni2114">
+/* VTT 6.35 compiler */
+SVTCA[Y]
+MDAP[R], 0
+MDAP[R], 23
+IP[], 53
+MDAP[R], 53
+CALL[], 53, 52, 106
+SRP1[], 23
+SRP2[], 0
+IP[], 11
+MDAP[R], 11
+CALL[], 11, 42, 106
+CALL[], 0, 31, 106
+SRP1[], 23
+SHP[1], 27
+SRP1[], 0
+SHP[1], 26
 SHP[1], 25
 IUP[Y]
 IUP[X]
@@ -40412,6 +40499,70 @@ IUP[X]
 
     </glyphProgram>
 
+    <glyphProgram name="uni2118">
+/* VTT 6.35 compiler */
+SVTCA[Y]
+MDAP[R], 0
+MDAP[R], 15
+IP[], 29
+MDAP[R], 29
+CALL[], 29, 66, 106
+SRP1[], 15
+SRP2[], 0
+IP[], 38
+MDAP[R], 38
+CALL[], 38, 55, 106
+CALL[], 0, 79, 106
+IUP[Y]
+IUP[X]
+
+    </glyphProgram>
+
+    <glyphProgram name="uni2127">
+/* VTT 6.35 compiler */
+SVTCA[Y]
+MDAP[R], 0
+MDAP[R], 47
+CALL[], 47, 46, 106
+CALL[], 0, 23, 106
+SRP1[], 47
+SHP[1], 51
+SRP1[], 0
+SHP[1], 50
+SRP1[], 47
+SHP[1], 35
+SHP[1], 11
+IUP[Y]
+IUP[X]
+
+    </glyphProgram>
+
+    <glyphProgram name="uni2129">
+/* VTT 6.35 compiler */
+SVTCA[Y]
+MDAP[R], 0
+MDAP[R], 12
+CALL[], 12, 5, 106
+SHP[1], 9
+IUP[Y]
+IUP[X]
+
+    </glyphProgram>
+
+    <glyphProgram name="uni213A">
+/* VTT 6.35 compiler */
+SVTCA[Y]
+MDAP[R], 0
+MDAP[R], 38
+IP[], 8
+MDAP[R], 8
+CALL[], 8, 28, 106
+CALL[], 0, 18, 106
+IUP[Y]
+IUP[X]
+
+    </glyphProgram>
+
     <glyphProgram name="uni213B">
 /* VTT 6.35 compiler */
 SVTCA[Y]
@@ -40444,6 +40595,133 @@ IUP[X]
 
     </glyphProgram>
 
+    <glyphProgram name="uni2141">
+/* VTT 6.35 compiler */
+SVTCA[Y]
+MDAP[R], 0
+MDAP[R], 33
+CALL[], 33, 20, 106
+SRP2[], 0
+IP[], 25
+MDAP[R], 25
+CALL[], 25, 28, 106
+CALL[], 0, 9, 106
+IUP[Y]
+IUP[X]
+
+    </glyphProgram>
+
+    <glyphProgram name="uni2142">
+/* VTT 6.35 compiler */
+SVTCA[Y]
+MDAP[R], 0
+MDAP[R], 1
+IP[], 5
+MDAP[R], 5
+CALL[], 5, 4, 106
+IUP[Y]
+IUP[X]
+
+    </glyphProgram>
+
+    <glyphProgram name="uni2143">
+/* VTT 6.35 compiler */
+SVTCA[Y]
+MDAP[R], 0
+MDAP[R], 1
+IP[], 4
+MDAP[R], 4
+CALL[], 4, 5, 106
+IUP[Y]
+IUP[X]
+
+    </glyphProgram>
+
+    <glyphProgram name="uni2144">
+/* VTT 6.35 compiler */
+SVTCA[Y]
+MDAP[R], 0
+MDAP[R], 2
+SHP[2], 6
+IUP[Y]
+IUP[X]
+
+    </glyphProgram>
+
+    <glyphProgram name="uni214A">
+/* VTT 6.35 compiler */
+SVTCA[Y]
+MDAP[R], 24
+MDAP[R], 29
+SRP2[], 24
+IP[], 1
+MDAP[R], 1
+CALL[], 1, 22, 106
+SRP1[], 29
+SRP2[], 24
+IP[], 11
+MDAP[R], 11
+CALL[], 11, 12, 106
+CALL[], 24, 25, 106
+SHP[1], 31
+IUP[Y]
+IUP[X]
+
+    </glyphProgram>
+
+    <glyphProgram name="uni214B">
+/* VTT 6.35 compiler */
+SVTCA[Y]
+MDAP[R], 0
+MDAP[R], 33
+CALL[], 33, 17, 106
+CALL[], 0, 48, 106
+SRP1[], 33
+SHP[1], 58
+IUP[Y]
+IUP[X]
+
+    </glyphProgram>
+
+    <glyphProgram name="uni214C">
+/* VTT 6.35 compiler */
+SVTCA[Y]
+MDAP[R], 0
+MDAP[R], 64
+CALL[], 64, 147, 106
+SRP2[], 0
+IP[], 38
+MDAP[R], 38
+CALL[], 38, 19, 106
+SRP1[], 64
+SRP2[], 0
+IP[], 25
+MDAP[R], 25
+CALL[], 25, 31, 106
+SRP1[], 64
+SRP2[], 0
+IP[], 55
+MDAP[R], 55
+CALL[], 55, 128, 106
+SHP[2], 139
+SHP[1], 153
+SRP1[], 64
+SRP2[], 0
+IP[], 103
+MDAP[R], 103
+CALL[], 103, 121, 106
+CALL[], 0, 94, 106
+SRP1[], 55
+SHP[1], 113
+SRP1[], 103
+SHP[1], 112
+SRP1[], 64
+SHP[1], 46
+IUP[Y]
+IUP[X]
+
+    </glyphProgram>
+
     <glyphProgram name="uni214D">
 /* VTT 6.35 compiler */
 SVTCA[Y]
@@ -40464,6 +40742,24 @@ MDRP[m&gt;RGr], 26
 SHP[2], 35
 IP[], 14
 IP[], 39
+IUP[Y]
+IUP[X]
+
+    </glyphProgram>
+
+    <glyphProgram name="uni214E">
+/* VTT 6.35 compiler */
+SVTCA[Y]
+MDAP[R], 0
+MDAP[R], 1
+IP[], 8
+MDAP[R], 8
+CALL[], 8, 9, 106
+SRP1[], 1
+SRP2[], 0
+IP[], 4
+MDAP[R], 4
+CALL[], 4, 5, 106
 IUP[Y]
 IUP[X]
 
@@ -83021,6 +83317,50 @@ Smooth()
 
     </glyphProgram>
 
+    <glyphProgram name="uni20BF">
+/* VTTTalk Unicode 0x20bf */
+/* ACT generated Tue Jun  9 13:33:49 2026 */
+
+/* Auto-Hinting Light */
+
+/* ***Settings*** */
+/* ModeHinting = LightLatin */
+/* ToAnchorBottom = true */
+
+
+/* CVT 0 18  DISABLED for a NON-LATIN glyph */
+/* CVT 1 16  DISABLED for a NON-LATIN glyph */
+/* Min and Max */
+YAnchor(20)	/* min */
+YAnchor(50)	/* max */
+
+/* YDir: Stroke #0 */
+YInterpolate(50,1,20)
+YAnchor(1)
+ResYDist(1,48) /*perpendicular to the stroke*/
+
+/* YDir: Stroke #1 */
+YInterpolate(50,38,20)
+YAnchor(38)
+ResYDist(38,39) /*perpendicular to the stroke*/
+
+/* YDir: Stroke #2 */
+YInterpolate(50,0,20)
+YAnchor(0)
+ResYDist(0,28) /*perpendicular to the stroke*/
+
+/* Contour #2 */
+YShift(38,25) /* max */
+YShift(20,24) /* min */
+
+/* Contour #6 */
+YShift(50,54) /* max */
+YShift(38,53) /* min */
+
+Smooth()
+
+    </glyphProgram>
+
     <glyphProgram name="uni20E3">
 /* VTTTalk Unicode 0x20e3 */
 /* ACT generated Thu Dec  5 13:36:29 2019 */
@@ -83057,6 +83397,34 @@ Smooth()
 
     </glyphProgram>
 
+    <glyphProgram name="uni2104">
+/* VTTTalk Unicode 0x2104 */
+/* ACT generated Tue Jun  9 13:33:49 2026 */
+
+/* Auto-Hinting Light */
+
+/* ***Settings*** */
+/* ModeHinting = LightLatin */
+/* ToAnchorBottom = true */
+
+
+/* CVT 0 18  DISABLED for a NON-LATIN glyph */
+/* CVT 9 16  DISABLED for a NON-LATIN glyph */
+/* Min and Max */
+YAnchor(0)	/* min */
+YAnchor(9)	/* max */
+
+/* YDir: Stroke #0 */
+ResYDist(0,27) /*perpendicular to the stroke*/
+
+/* Contour #1 */
+YShift(9,31) /* max */
+YShift(0,30) /* min */
+
+Smooth()
+
+    </glyphProgram>
+
     <glyphProgram name="uni2105">
 /* Y direction */
 ResYAnchor(14,5)
@@ -83078,6 +83446,38 @@ Smooth()
 
     </glyphProgram>
 
+    <glyphProgram name="uni2108">
+/* VTTTalk Unicode 0x2108 */
+/* ACT generated Tue Jun  9 13:33:49 2026 */
+
+/* Auto-Hinting Light */
+
+/* ***Settings*** */
+/* ModeHinting = LightLatin */
+/* ToAnchorBottom = true */
+
+
+/* CVT 0 19  DISABLED for a NON-LATIN glyph */
+/* CVT 30 17  DISABLED for a NON-LATIN glyph */
+/* Min and Max */
+YAnchor(0)	/* min */
+YAnchor(30)	/* max */
+
+/* YDir: Stroke #0 */
+ResYDist(30,21) /*perpendicular to the stroke*/
+
+/* YDir: Stroke #1 */
+YInterpolate(30,41,0)
+YAnchor(41)
+ResYDist(41,42) /*perpendicular to the stroke*/
+
+/* YDir: Stroke #2 */
+ResYDist(0,9) /*perpendicular to the stroke*/
+
+Smooth()
+
+    </glyphProgram>
+
     <glyphProgram name="uni2113">
 /* Y direction */
 YAnchor(1)
@@ -83088,6 +83488,47 @@ YIPAnchor(1,24,12)
 YShift(24,25)
 
 /* X direction */
+
+Smooth()
+
+    </glyphProgram>
+
+    <glyphProgram name="uni2114">
+/* VTTTalk Unicode 0x2114 */
+/* ACT generated Tue Jun  9 13:33:49 2026 */
+
+/* Auto-Hinting Light */
+
+/* ***Settings*** */
+/* ModeHinting = LightLatin */
+/* ToAnchorBottom = true */
+
+
+/* CVT 0 19  DISABLED for a NON-LATIN glyph */
+/* CVT 22 18  DISABLED for a NON-LATIN glyph */
+/* Min and Max */
+YAnchor(0)	/* min */
+YAnchor(23)	/* max */
+
+/* YDir: Stroke #0 */
+YInterpolate(23,53,0)
+YAnchor(53)
+ResYDist(53,52) /*perpendicular to the stroke*/
+
+/* YDir: Stroke #1 */
+YInterpolate(23,11,0)
+YAnchor(11)
+ResYDist(11,42) /*perpendicular to the stroke*/
+
+/* YDir: Stroke #2 */
+ResYDist(0,31) /*perpendicular to the stroke*/
+
+/* Contour #2 */
+YShift(23,27) /* max */
+YShift(0,26) /* min */
+
+/* Extreme Min */
+YShift(0,25)
 
 Smooth()
 
@@ -83137,6 +83578,129 @@ Smooth()
 
     </glyphProgram>
 
+    <glyphProgram name="uni2118">
+/* VTTTalk Unicode 0x2118 */
+/* ACT generated Tue Jun  9 13:33:49 2026 */
+
+/* Auto-Hinting Light */
+
+/* ***Settings*** */
+/* ModeHinting = LightLatin */
+/* ToAnchorBottom = true */
+
+
+/* CVT 38 19  DISABLED for a NON-LATIN glyph */
+/* Min and Max */
+YAnchor(0)	/* min */
+YAnchor(15)	/* max */
+
+/* YDir: Stroke #0 */
+YInterpolate(15,29,0)
+YAnchor(29)
+ResYDist(29,66) /*perpendicular to the stroke*/
+
+/* YDir: Stroke #1 */
+YInterpolate(15,38,0)
+YAnchor(38)
+ResYDist(38,55) /*perpendicular to the stroke*/
+
+/* YDir: Stroke #2 */
+ResYDist(0,79) /*perpendicular to the stroke*/
+
+Smooth()
+
+    </glyphProgram>
+
+    <glyphProgram name="uni2127">
+/* VTTTalk Unicode 0x2127 */
+/* ACT generated Tue Jun  9 13:33:49 2026 */
+
+/* Auto-Hinting Light */
+
+/* ***Settings*** */
+/* ModeHinting = LightLatin */
+/* ToAnchorBottom = true */
+
+
+/* CVT 0 19  DISABLED for a NON-LATIN glyph */
+/* CVT 47 16  DISABLED for a NON-LATIN glyph */
+/* Min and Max */
+YAnchor(0)	/* min */
+YAnchor(47)	/* max */
+
+/* YDir: Stroke #0 */
+ResYDist(47,46) /*perpendicular to the stroke*/
+
+/* YDir: Stroke #1 */
+ResYDist(0,23) /*perpendicular to the stroke*/
+
+/* Contour #2 */
+YShift(47,51) /* max */
+YShift(0,50) /* min */
+
+/* Extreme Max */
+YShift(47,35)
+
+/* Extreme Max */
+YShift(47,11)
+
+Smooth()
+
+    </glyphProgram>
+
+    <glyphProgram name="uni2129">
+/* VTTTalk Unicode 0x2129 */
+/* ACT generated Tue Jun  9 13:33:49 2026 */
+
+/* Auto-Hinting Light */
+
+/* ***Settings*** */
+/* ModeHinting = LightLatin */
+/* ToAnchorBottom = true */
+
+
+/* CVT 17 19  DISABLED for a NON-LATIN glyph */
+/* Min and Max */
+YAnchor(0)	/* min */
+YAnchor(12)	/* max */
+
+/* YDir: Stroke #0 */
+ResYDist(12,5) /*perpendicular to the stroke*/
+
+/* Extreme Max */
+YShift(12,9)
+
+Smooth()
+
+    </glyphProgram>
+
+    <glyphProgram name="uni213A">
+/* VTTTalk Unicode 0x213a */
+/* ACT generated Tue Jun  9 13:33:49 2026 */
+
+/* Auto-Hinting Light */
+
+/* ***Settings*** */
+/* ModeHinting = LightLatin */
+/* ToAnchorBottom = true */
+
+
+/* Min and Max */
+YAnchor(0)	/* min */
+YAnchor(38)	/* max */
+
+/* YDir: Stroke #0 */
+YInterpolate(38,8,0)
+YAnchor(8)
+ResYDist(8,28) /*perpendicular to the stroke*/
+
+/* YDir: Stroke #1 */
+ResYDist(0,18) /*perpendicular to the stroke*/
+
+Smooth()
+
+    </glyphProgram>
+
     <glyphProgram name="uni213B">
 /* Y direction */
 YAnchor(2,16)
@@ -83159,6 +83723,239 @@ Smooth()
 
     </glyphProgram>
 
+    <glyphProgram name="uni2141">
+/* VTTTalk Unicode 0x2141 */
+/* ACT generated Tue Jun  9 13:33:49 2026 */
+
+/* Auto-Hinting Light */
+
+/* ***Settings*** */
+/* ModeHinting = LightLatin */
+/* ToAnchorBottom = true */
+
+
+/* CVT 0 19  DISABLED for a NON-LATIN glyph */
+/* CVT 33 17  DISABLED for a NON-LATIN glyph */
+/* Min and Max */
+YAnchor(0)	/* min */
+YAnchor(33)	/* max */
+
+/* YDir: Stroke #0 */
+ResYDist(33,20) /*perpendicular to the stroke*/
+
+/* YDir: Stroke #1 */
+YInterpolate(33,25,0)
+YAnchor(25)
+ResYDist(25,28) /*perpendicular to the stroke*/
+
+/* YDir: Stroke #2 */
+ResYDist(0,9) /*perpendicular to the stroke*/
+
+Smooth()
+
+    </glyphProgram>
+
+    <glyphProgram name="uni2142">
+/* VTTTalk Unicode 0x2142 */
+/* ACT generated Tue Jun  9 13:33:49 2026 */
+
+/* Auto-Hinting Light */
+
+/* ***Settings*** */
+/* ModeHinting = LightLatin */
+/* ToAnchorBottom = true */
+
+
+/* CVT 3 18  DISABLED for a NON-LATIN glyph */
+/* CVT 5 16  DISABLED for a NON-LATIN glyph */
+/* Min and Max */
+YAnchor(0)	/* min */
+YAnchor(1)	/* max */
+
+/* YDir: Stroke #0 */
+YInterpolate(1,5,0)
+YAnchor(5)
+ResYDist(5,4) /*perpendicular to the stroke*/
+
+Smooth()
+
+    </glyphProgram>
+
+    <glyphProgram name="uni2143">
+/* VTTTalk Unicode 0x2143 */
+/* ACT generated Tue Jun  9 13:33:49 2026 */
+
+/* Auto-Hinting Light */
+
+/* ***Settings*** */
+/* ModeHinting = LightLatin */
+/* ToAnchorBottom = true */
+
+
+/* CVT 2 16  DISABLED for a NON-LATIN glyph */
+/* CVT 4 18  DISABLED for a NON-LATIN glyph */
+/* Min and Max */
+YAnchor(0)	/* min */
+YAnchor(1)	/* max */
+
+/* YDir: Stroke #0 */
+YInterpolate(1,4,0)
+YAnchor(4)
+ResYDist(4,5) /*perpendicular to the stroke*/
+
+Smooth()
+
+    </glyphProgram>
+
+    <glyphProgram name="uni2144">
+/* VTTTalk Unicode 0x2144 */
+/* ACT generated Tue Jun  9 13:33:49 2026 */
+
+/* Auto-Hinting Light */
+
+/* ***Settings*** */
+/* ModeHinting = LightLatin */
+/* ToAnchorBottom = true */
+
+
+/* CVT 0 18  DISABLED for a NON-LATIN glyph */
+/* CVT 3 16  DISABLED for a NON-LATIN glyph */
+/* Min and Max */
+YAnchor(0)	/* min */
+YAnchor(2)	/* max */
+
+/* Extreme Min */
+YShift(0,6)
+
+Smooth()
+
+    </glyphProgram>
+
+    <glyphProgram name="uni214A">
+/* VTTTalk Unicode 0x214a */
+/* ACT generated Tue Jun  9 13:33:49 2026 */
+
+/* Auto-Hinting Light */
+
+/* ***Settings*** */
+/* ModeHinting = LightLatin */
+/* ToAnchorBottom = true */
+
+
+/* CVT 1 16  DISABLED for a NON-LATIN glyph */
+/* CVT 28 18  DISABLED for a NON-LATIN glyph */
+/* Min and Max */
+YAnchor(24)	/* min */
+YAnchor(29)	/* max */
+
+/* YDir: Stroke #0 */
+YInterpolate(29,1,24)
+YAnchor(1)
+ResYDist(1,22) /*perpendicular to the stroke*/
+
+/* YDir: Stroke #1 */
+YInterpolate(29,11,24)
+YAnchor(11)
+ResYDist(11,12) /*perpendicular to the stroke*/
+
+/* YDir: Stroke #2 */
+ResYDist(24,25) /*perpendicular to the stroke*/
+
+/* Extreme Min */
+YShift(24,31)
+
+Smooth()
+
+    </glyphProgram>
+
+    <glyphProgram name="uni214B">
+/* VTTTalk Unicode 0x214b */
+/* ACT generated Tue Jun  9 13:33:49 2026 */
+
+/* Auto-Hinting Light */
+
+/* ***Settings*** */
+/* ModeHinting = LightLatin */
+/* ToAnchorBottom = true */
+
+
+/* CVT 0 19  DISABLED for a NON-LATIN glyph */
+/* CVT 33 17  DISABLED for a NON-LATIN glyph */
+/* CVT 57 16  DISABLED for a NON-LATIN glyph */
+/* Min and Max */
+YAnchor(0)	/* min */
+YAnchor(33)	/* max */
+
+/* YDir: Stroke #0 */
+ResYDist(33,17) /*perpendicular to the stroke*/
+
+/* YDir: Stroke #1 */
+ResYDist(0,48) /*perpendicular to the stroke*/
+
+/* Extreme Max */
+YShift(33,58)
+
+Smooth()
+
+    </glyphProgram>
+
+    <glyphProgram name="uni214C">
+/* VTTTalk Unicode 0x214c */
+/* ACT generated Tue Jun  9 13:33:49 2026 */
+
+/* Auto-Hinting Light */
+
+/* ***Settings*** */
+/* ModeHinting = LightLatin */
+/* ToAnchorBottom = true */
+
+
+/* CVT 0 19  DISABLED for a NON-LATIN glyph */
+/* CVT 46 16  DISABLED for a NON-LATIN glyph */
+/* CVT 64 17  DISABLED for a NON-LATIN glyph */
+/* Min and Max */
+YAnchor(0)	/* min */
+YAnchor(64)	/* max */
+
+/* YDir: Stroke #0 */
+ResYDist(64,147) /*perpendicular to the stroke*/
+
+/* YDir: Stroke #1 */
+YInterpolate(64,38,0)
+YAnchor(38)
+ResYDist(38,19) /*perpendicular to the stroke*/
+
+/* YDir: Stroke #2 */
+YInterpolate(64,25,0)
+YAnchor(25)
+ResYDist(25,31) /*perpendicular to the stroke*/
+
+/* YDir: Stroke #3 */
+YInterpolate(64,55,0)
+YAnchor(55)
+ResYDist(55,128) /*perpendicular to the stroke*/
+YShift(128,139) /*along bottom edge*/
+YShift(55,153) /*along top edge*/
+
+/* YDir: Stroke #4 */
+YInterpolate(64,103,0)
+YAnchor(103)
+ResYDist(103,121) /*perpendicular to the stroke*/
+
+/* YDir: Stroke #5 */
+ResYDist(0,94) /*perpendicular to the stroke*/
+
+/* Contour #2 */
+YShift(55,113) /* max */
+YShift(103,112) /* min */
+
+/* Extreme Max */
+YShift(64,46)
+
+Smooth()
+
+    </glyphProgram>
+
     <glyphProgram name="uni214D">
 /* Y direction */
 YAnchor(3)
@@ -83176,6 +83973,36 @@ YShift(26,35)
 YInterpolate(51,14,39,26)
 
 /* X direction */
+
+Smooth()
+
+    </glyphProgram>
+
+    <glyphProgram name="uni214E">
+/* VTTTalk Unicode 0x214e */
+/* ACT generated Tue Jun  9 13:33:49 2026 */
+
+/* Auto-Hinting Light */
+
+/* ***Settings*** */
+/* ModeHinting = LightLatin */
+/* ToAnchorBottom = true */
+
+
+/* CVT 4 18  DISABLED for a NON-LATIN glyph */
+/* Min and Max */
+YAnchor(0)	/* min */
+YAnchor(1)	/* max */
+
+/* YDir: Stroke #0 */
+YInterpolate(1,8,0)
+YAnchor(8)
+ResYDist(8,9) /*perpendicular to the stroke*/
+
+/* YDir: Stroke #1 */
+YInterpolate(1,4,0)
+YAnchor(4)
+ResYDist(4,5) /*perpendicular to the stroke*/
 
 Smooth()
 
@@ -93895,17 +94722,35 @@ Smooth()
     <glyphgroup name="uni20BD" value="1"/>
     <glyphgroup name="uni20BD.smcp" value="1"/>
     <glyphgroup name="uni20BE" value="1"/>
+    <glyphgroup name="uni20BF" value="0"/>
     <glyphgroup name="uni20DB" value="1"/>
     <glyphgroup name="uni20DC" value="1"/>
     <glyphgroup name="uni20E3" value="1"/>
     <glyphgroup name="uni20E8" value="1"/>
     <glyphgroup name="uni20F0" value="1"/>
+    <glyphgroup name="uni2104" value="0"/>
     <glyphgroup name="uni2105" value="1"/>
+    <glyphgroup name="uni2107" value="0"/>
+    <glyphgroup name="uni2108" value="0"/>
     <glyphgroup name="uni2113" value="1"/>
+    <glyphgroup name="uni2114" value="0"/>
     <glyphgroup name="uni2116" value="1"/>
     <glyphgroup name="uni2116.smcp" value="1"/>
+    <glyphgroup name="uni2118" value="0"/>
+    <glyphgroup name="uni2127" value="0"/>
+    <glyphgroup name="uni2129" value="0"/>
+    <glyphgroup name="uni2139" value="0"/>
+    <glyphgroup name="uni213A" value="0"/>
     <glyphgroup name="uni213B" value="1"/>
+    <glyphgroup name="uni2141" value="0"/>
+    <glyphgroup name="uni2142" value="0"/>
+    <glyphgroup name="uni2143" value="0"/>
+    <glyphgroup name="uni2144" value="0"/>
+    <glyphgroup name="uni214A" value="0"/>
+    <glyphgroup name="uni214B" value="0"/>
+    <glyphgroup name="uni214C" value="0"/>
     <glyphgroup name="uni214D" value="1"/>
+    <glyphgroup name="uni214E" value="0"/>
     <glyphgroup name="uni214F" value="1"/>
     <glyphgroup name="uni2150" value="1"/>
     <glyphgroup name="uni2151" value="1"/>
@@ -94500,7 +95345,7 @@ Smooth()
   <maxp>
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="0x10000"/>
-    <numGlyphs value="3391"/>
+    <numGlyphs value="3409"/>
     <maxPoints value="336"/>
     <maxContours value="21"/>
     <maxCompositePoints value="118"/>
