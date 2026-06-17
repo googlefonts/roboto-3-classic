@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni214A" format="2">
+  <advance width="1208"/>
+  <unicode hex="214A"/>
+  <outline>
+    <contour>
+      <point x="185" y="300" type="line"/>
+      <point x="239" y="300" type="line"/>
+      <point x="239" y="1402" type="line"/>
+      <point x="640" y="1402" type="line"/>
+      <point x="934" y="1402"/>
+      <point x="1056" y="1235"/>
+      <point x="1056" y="1029" type="curve"/>
+      <point x="1056" y="831"/>
+      <point x="934" y="669"/>
+      <point x="640" y="669" type="curve"/>
+      <point x="558" y="669" type="line"/>
+      <point x="558" y="615" type="line"/>
+      <point x="640" y="615" type="line"/>
+      <point x="951" y="615"/>
+      <point x="1110" y="774"/>
+      <point x="1110" y="1031" type="curve"/>
+      <point x="1110" y="1287"/>
+      <point x="950" y="1456"/>
+      <point x="640" y="1456" type="curve"/>
+      <point x="185" y="1456" type="line"/>
+    </contour>
+    <contour>
+      <point x="551" y="0" type="line"/>
+      <point x="1153" y="0" type="line"/>
+      <point x="1153" y="54" type="line"/>
+      <point x="551" y="54" type="line"/>
+    </contour>
+    <contour>
+      <point x="531" y="0" type="line"/>
+      <point x="586" y="0" type="line"/>
+      <point x="586" y="1589" type="line"/>
+      <point x="531" y="1589" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/06/01 15:11:51</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

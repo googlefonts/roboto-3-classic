@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2141" format="2">
+  <advance width="1163"/>
+  <unicode hex="2141"/>
+  <anchor x="484.926" y="-145" name="bottom"/>
+  <anchor x="-85.434" y="-145" name="bottom0315"/>
+  <anchor x="-84.052" y="-137" name="bottom_dd"/>
+  <anchor x="484.926" y="-145" name="parent_bottom"/>
+  <anchor x="737.088" y="1466" name="top"/>
+  <anchor x="262.722" y="1870" name="top_dd"/>
+  <outline>
+    <contour>
+      <point x="518" y="-14" type="curve" smooth="yes"/>
+      <point x="890" y="-22"/>
+      <point x="1063" y="282"/>
+      <point x="1111" y="612" type="curve" smooth="yes"/>
+      <point x="1149" y="859" type="line" smooth="yes"/>
+      <point x="1189" y="1173"/>
+      <point x="1080" y="1478"/>
+      <point x="723" y="1483" type="curve" smooth="yes"/>
+      <point x="550" y="1485"/>
+      <point x="353" y="1432"/>
+      <point x="233" y="1298" type="curve"/>
+      <point x="141" y="697" type="line"/>
+      <point x="628" y="697" type="line"/>
+      <point x="667" y="919" type="line"/>
+      <point x="465" y="919" type="line"/>
+      <point x="517" y="1186" type="line"/>
+      <point x="574" y="1216"/>
+      <point x="625" y="1238"/>
+      <point x="692" y="1238" type="curve" smooth="yes"/>
+      <point x="897" y="1235"/>
+      <point x="879" y="1009"/>
+      <point x="860" y="860" type="curve" smooth="yes"/>
+      <point x="824" y="610" type="line" smooth="yes"/>
+      <point x="801" y="440"/>
+      <point x="744" y="220"/>
+      <point x="533" y="229" type="curve" smooth="yes"/>
+      <point x="389" y="235"/>
+      <point x="376" y="348"/>
+      <point x="376" y="471" type="curve"/>
+      <point x="97" y="471" type="line"/>
+      <point x="100" y="187"/>
+      <point x="213" y="-8"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/06/01 15:11:51</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Math</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

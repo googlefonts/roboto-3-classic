@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2143" format="2">
+  <advance width="893"/>
+  <unicode hex="2143"/>
+  <outline>
+    <contour>
+      <point x="493" y="0" type="line"/>
+      <point x="672" y="0" type="line"/>
+      <point x="925" y="1456" type="line"/>
+      <point x="745" y="1456" type="line"/>
+    </contour>
+    <contour>
+      <point x="-61" y="0" type="line"/>
+      <point x="526" y="0" type="line"/>
+      <point x="554" y="157" type="line"/>
+      <point x="-33" y="157" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=|L</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|L</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/06/01 15:11:51</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Math</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

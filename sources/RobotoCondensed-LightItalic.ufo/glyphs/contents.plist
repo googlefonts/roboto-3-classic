@@ -544,6 +544,8 @@
     <string>O_grave.glif</string>
     <key>Ograve.smcp</key>
     <string>O_grave.smcp.glif</string>
+    <key>uni2127</key>
+    <string>uni2127.glif</string>
     <key>Ohorn</key>
     <string>O_horn.glif</string>
     <key>Ohungarumlaut</key>
@@ -640,6 +642,8 @@
     <string>R_ho.glif</string>
     <key>Rho.smcp</key>
     <string>R_ho.smcp.glif</string>
+    <key>uni213A</key>
+    <string>uni213A_.glif</string>
     <key>Rsmallcap</key>
     <string>R_smallcap.glif</string>
     <key>Rsmallcapinv</key>
@@ -944,6 +948,8 @@
     <string>ampersand.glif</string>
     <key>ampersand.smcp</key>
     <string>ampersand.smcp.glif</string>
+    <key>uni214B</key>
+    <string>uni214B_.glif</string>
     <key>anglesupnosp</key>
     <string>anglesupnosp.glif</string>
     <key>angstrom</key>
@@ -1014,6 +1020,12 @@
     <string>beta1.glif</string>
     <key>bhook</key>
     <string>bhook.glif</string>
+    <key>uni20BF</key>
+    <string>uni20B_F_.glif</string>
+    <key>blackCircle</key>
+    <string>blackC_ircle.glif</string>
+    <key>blackSquare</key>
+    <string>blackS_quare.glif</string>
     <key>braceleft</key>
     <string>braceleft.glif</string>
     <key>braceright</key>
@@ -1094,6 +1106,8 @@
     <string>cedillanosp.glif</string>
     <key>cent</key>
     <string>cent.glif</string>
+    <key>uni2104</key>
+    <string>uni2104.glif</string>
     <key>charactertie</key>
     <string>charactertie.glif</string>
     <key>chi</key>
@@ -1340,6 +1354,8 @@
     <string>eth.glif</string>
     <key>eturn</key>
     <string>eturn.glif</string>
+    <key>uni2107</key>
+    <string>uni2107.glif</string>
     <key>eurocurrency</key>
     <string>eurocurrency.glif</string>
     <key>exclam</key>
@@ -1540,6 +1556,8 @@
     <string>imacron.glif</string>
     <key>infinity</key>
     <string>infinity.glif</string>
+    <key>uni2139</key>
+    <string>uni2139.glif</string>
     <key>integral</key>
     <string>integral.glif</string>
     <key>interrobang</key>
@@ -1610,6 +1628,8 @@
     <string>largerighthook.glif</string>
     <key>lbar</key>
     <string>lbar.glif</string>
+    <key>uni2114</key>
+    <string>uni2114.glif</string>
     <key>lbelt</key>
     <string>lbelt.glif</string>
     <key>lcaron</key>
@@ -1882,6 +1902,8 @@
     <string>periodcentered.glif</string>
     <key>periodcentered.tnum</key>
     <string>periodcentered.tnum.glif</string>
+    <key>uni214C</key>
+    <string>uni214C_.glif</string>
     <key>pertenthousand</key>
     <string>pertenthousand.glif</string>
     <key>perthousand</key>
@@ -1922,6 +1944,8 @@
     <string>primetriplerev1.glif</string>
     <key>product</key>
     <string>product.glif</string>
+    <key>uni214A</key>
+    <string>uni214A_.glif</string>
     <key>psi</key>
     <string>psi.glif</string>
     <key>published</key>
@@ -1980,6 +2004,8 @@
     <string>registered.glif</string>
     <key>response</key>
     <string>response.glif</string>
+    <key>uni2143</key>
+    <string>uni2143.glif</string>
     <key>reverseddblprime</key>
     <string>reverseddblprime.glif</string>
     <key>rfishhook</key>
@@ -2070,6 +2096,8 @@
     <string>schwahook.glif</string>
     <key>scircumflex</key>
     <string>scircumflex.glif</string>
+    <key>uni2108</key>
+    <string>uni2108.glif</string>
     <key>seagullsubnosp</key>
     <string>seagullsubnosp.glif</string>
     <key>second</key>
@@ -2248,6 +2276,14 @@
     <string>ts.glif</string>
     <key>tturn</key>
     <string>tturn.glif</string>
+    <key>uni2141</key>
+    <string>uni2141.glif</string>
+    <key>uni2142</key>
+    <string>uni2142.glif</string>
+    <key>uni2144</key>
+    <string>uni2144.glif</string>
+    <key>uni2129</key>
+    <string>uni2129.glif</string>
     <key>two</key>
     <string>two.glif</string>
     <key>two.onum</key>
@@ -5602,6 +5638,8 @@
     <string>uni213B_.glif</string>
     <key>uni214D</key>
     <string>uni214D_.glif</string>
+    <key>uni214E</key>
+    <string>uni214E_.glif</string>
     <key>uni214F</key>
     <string>uni214F_.glif</string>
     <key>uni2150</key>
@@ -6706,8 +6744,12 @@
     <string>wcircumflex.glif</string>
     <key>wdieresis</key>
     <string>wdieresis.glif</string>
+    <key>uni2118</key>
+    <string>uni2118.glif</string>
     <key>wgrave</key>
     <string>wgrave.glif</string>
+    <key>whiteCircle</key>
+    <string>whiteC_ircle.glif</string>
     <key>won</key>
     <string>won.glif</string>
     <key>wsuper</key>
@@ -6778,11 +6820,5 @@
     <string>zeta.glif</string>
     <key>zrthook</key>
     <string>zrthook.glif</string>
-    <key>blackCircle</key>
-    <string>blackC_ircle.glif</string>
-    <key>blackSquare</key>
-    <string>blackS_quare.glif</string>
-    <key>whiteCircle</key>
-    <string>whiteC_ircle.glif</string>
   </dict>
 </plist>

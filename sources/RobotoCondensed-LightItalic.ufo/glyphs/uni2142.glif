@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2142" format="2">
+  <advance width="922"/>
+  <unicode hex="2142"/>
+  <anchor x="608.813" y="-117" name="bottom"/>
+  <anchor x="-70.187" y="-117" name="bottom0315"/>
+  <anchor x="-74.852" y="-144" name="bottom_dd"/>
+  <anchor x="608.813" y="-117" name="parent_bottom"/>
+  <anchor x="577.201" y="1446" name="top"/>
+  <anchor x="271.922" y="1863" name="top_dd"/>
+  <outline>
+    <contour>
+      <point x="571" y="0" type="line"/>
+      <point x="686" y="0" type="line"/>
+      <point x="939" y="1456" type="line"/>
+      <point x="824" y="1456" type="line"/>
+    </contour>
+    <contour>
+      <point x="224" y="1349" type="line"/>
+      <point x="838" y="1349" type="line"/>
+      <point x="857" y="1456" type="line"/>
+      <point x="243" y="1456" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=|L</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|L</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/06/01 15:11:51</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Math</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

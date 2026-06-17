@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2141" format="2">
+  <advance width="1406"/>
+  <unicode hex="2141"/>
+  <anchor x="703" y="-177" name="bottom"/>
+  <anchor x="0" y="-177" name="bottom0315"/>
+  <anchor x="0" y="-144" name="bottom_dd"/>
+  <anchor x="703" y="-177" name="parent_bottom"/>
+  <anchor x="677" y="1456" name="top"/>
+  <anchor x="0" y="1863" name="top_dd"/>
+  <outline>
+    <contour>
+      <point x="694" y="-20" type="curve" smooth="yes"/>
+      <point x="1015" y="-20"/>
+      <point x="1238" y="231"/>
+      <point x="1238" y="598" type="curve" smooth="yes"/>
+      <point x="1238" y="836" type="line" smooth="yes"/>
+      <point x="1238" y="1216"/>
+      <point x="1009" y="1476"/>
+      <point x="677" y="1476" type="curve" smooth="yes"/>
+      <point x="393" y="1476"/>
+      <point x="227" y="1366"/>
+      <point x="180" y="1300" type="curve"/>
+      <point x="180" y="796" type="line"/>
+      <point x="679" y="796" type="line"/>
+      <point x="679" y="851" type="line"/>
+      <point x="234" y="851" type="line"/>
+      <point x="234" y="1275" type="line"/>
+      <point x="279" y="1334"/>
+      <point x="439" y="1422"/>
+      <point x="677" y="1422" type="curve" smooth="yes"/>
+      <point x="985" y="1422"/>
+      <point x="1184" y="1179"/>
+      <point x="1184" y="836" type="curve" smooth="yes"/>
+      <point x="1184" y="596" type="line" smooth="yes"/>
+      <point x="1184" y="268"/>
+      <point x="991" y="34"/>
+      <point x="694" y="34" type="curve" smooth="yes"/>
+      <point x="391" y="34"/>
+      <point x="266" y="204"/>
+      <point x="236" y="394" type="curve"/>
+      <point x="182" y="394" type="line"/>
+      <point x="209" y="161"/>
+      <point x="379" y="-20"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/06/01 15:11:51</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Math</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

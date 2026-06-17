@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2139" format="2">
+  <advance width="419"/>
+  <unicode hex="2139"/>
+  <anchor x="107.579" y="10.0" name="bottom"/>
+  <anchor x="225.648" y="-407.0" name="bottom_dd"/>
+  <anchor x="386.182" y="1600.0" name="parent_top"/>
+  <anchor x="232.43" y="654.0" name="rhotichook"/>
+  <anchor x="386.182" y="1600.0" name="top"/>
+  <anchor x="572.422" y="1600.0" name="top0315"/>
+  <anchor x="572.422" y="1600.0" name="top_dd"/>
+  <outline>
+    <component base="i"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>i</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>i</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/05/26 11:26:23</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>
