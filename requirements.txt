@@ -47,7 +47,7 @@ pycparser==2.22
 Pygments==2.19.2
 pyparsing==3.2.3
 PyYAML==6.0.2
-requests==2.32.4
+requests==2.33.0
 rich==14.1.0
 rstr==3.2.2
 skia-pathops==0.8.0.post2
