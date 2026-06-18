@@ -44,7 +44,7 @@ protobuf==3.20.3
 pycairo==1.28.0
 pyclipper==1.3.0.post6
 pycparser==2.22
-Pygments==2.19.2
+Pygments==2.20.0
 pyparsing==3.2.3
 PyYAML==6.0.2
 requests==2.32.4
