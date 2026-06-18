@@ -1,6 +1,7 @@
+"""Generate STAT table and update fvar instances."""
+import sys
 from fontTools.otlLib.builder import buildStatTable, _addName
 from fontTools.ttLib import TTFont
-import sys
 
 
 AXES = [
@@ -40,6 +41,7 @@ AXES = [
     ),
 ]
 
+
 def update_fvar(ttfont):
     fvar = ttfont['fvar']
     nametable = ttfont['name']
@@ -52,14 +54,13 @@ def update_fvar(ttfont):
         instance.postscriptNameID = _addName(ttfont, ps_name, 256)
 
 
-def main():
-    filepath = sys.argv[1]
-    tt = TTFont(filepath)
+def main(font_path):
+    tt = TTFont(font_path)
     buildStatTable(tt, AXES)
     update_fvar(tt)
-    tt.save(filepath)
-    print(f"Added STAT table to {filepath}")
+    tt.save(font_path)
+    print(f"Added STAT table to {font_path}")
 
 
 if __name__ == "__main__":
-    main()
+    main(sys.argv[1])

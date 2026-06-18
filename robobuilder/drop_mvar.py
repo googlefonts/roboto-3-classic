@@ -1,5 +1,6 @@
-from fontTools.ttLib import TTFont
+"""Remove the MVAR table from a variable font."""
 import sys
+from fontTools.ttLib import TTFont
 
 
 def main(font_path):
@@ -11,4 +12,3 @@ def main(font_path):
 
 if __name__ == "__main__":
     main(sys.argv[1])
-

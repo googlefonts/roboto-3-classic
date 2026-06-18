@@ -1,16 +1,12 @@
+"""Create condensed width variants from split variable fonts."""
 import sys
-import shutil
-import os
+from pathlib import Path
 from fontTools.ttLib import TTFont
 from fontTools.varLib.instancer import instantiateVariableFont
-from scripts import (
-    update_names,
-    update_attribs,
-    mkdir
-)
+from robobuilder.utils import update_names, update_attribs, mkdir
 
 
-roman_instance = {
+ROMAN_INSTANCE = {
     "attribs": {"usWidthClass": 3},
     "axes": {"wdth": 75},
     "filename": "RobotoCondensed[wght].ttf",
@@ -20,11 +16,11 @@ roman_instance = {
         "3,3,1,1033": "Google:Roboto Condensed Regular:2016",
         "4,3,1,1033": "Roboto Condensed Regular",
         "6,3,1,1033": "RobotoCondensed-Regular",
-        "25,3,1,1033": "RobotoCondensed"
+        "25,3,1,1033": "RobotoCondensed",
     },
 }
 
-italic_instance = {
+ITALIC_INSTANCE = {
     "attribs": {"usWidthClass": 3, "italicAngle": -12, "caretSlopeRise": 2048, "caretSlopeRun": 435},
     "axes": {"wdth": 75},
     "filename": "RobotoCondensed-Italic[wght].ttf",
@@ -34,9 +30,10 @@ italic_instance = {
         "3,3,1,1033": "Google:Roboto Condensed Italic:2016",
         "4,3,1,1033": "Roboto Condensed Italic",
         "6,3,1,1033": "RobotoCondensed-Italic",
-        "25,3,1,1033": "RobotoCondensed"
+        "25,3,1,1033": "RobotoCondensed",
     },
 }
+
 
 def update_fvar_instances(ttfont):
     name = ttfont["name"]
@@ -59,28 +56,32 @@ def update_fvar_instances(ttfont):
 
 
 def update_stat(ttfont):
-    # Elide Condensed STAT AvisValue
     stat = ttfont["STAT"].table
     name_table = ttfont["name"]
     axis_values = [a for a in stat.AxisValueArray.AxisValue]
     for av in axis_values:
         name_id = av.ValueNameID
-        name = name_table.getName(name_id, 3, 1, 0x409).toUnicode()
-        if name == "Condensed":
-            av.Flags = 2
+        name_record = name_table.getName(name_id, 3, 1, 0x409)
+        if name_record:
+            name = name_record.toUnicode()
+            if name == "Condensed":
+                av.Flags = 2
 
 
-vf_roman = TTFont(sys.argv[1])
-vf_italic = TTFont(sys.argv[2])
-out_dir = mkdir(sys.argv[3])
+def main(roman_path, italic_path, out_dir):
+    vf_roman = TTFont(roman_path)
+    vf_italic = TTFont(italic_path)
+    out_dir = Path(mkdir(out_dir))
+
+    for inst, vf in zip([ROMAN_INSTANCE, ITALIC_INSTANCE], [vf_roman, vf_italic]):
+        print(f"Making {inst['filename']}")
+        instance = instantiateVariableFont(vf, inst["axes"])
+        update_attribs(instance, **inst["attribs"])
+        update_names(instance, rm_private=False, **inst["names"])
+        update_fvar_instances(instance)
+        update_stat(instance)
+        instance.save(str(out_dir / inst["filename"]))
 
 
-for inst, vf in zip([roman_instance, italic_instance], [vf_roman, vf_italic]):
-    print(f"Making {inst['filename']}")
-    instance = instantiateVariableFont(vf, inst["axes"])
-    update_attribs(instance, **inst["attribs"])
-    update_names(instance, rm_private=False, **inst["names"])
-    update_fvar_instances(instance)
-    update_stat(instance)
-    out_path = os.path.join(sys.argv[3], inst["filename"])
-    instance.save(out_path)
+if __name__ == "__main__":
+    main(sys.argv[1], sys.argv[2], sys.argv[3])

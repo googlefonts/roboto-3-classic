@@ -1,12 +1,8 @@
-"""Helper functions for hotfixing fonts"""
-import os
+"""Shared utilities for font hotfixing."""
 import shutil
 from datetime import datetime as date
-from fontTools.ttLib import TTFont, newTable
-
-__all__ = ["update_attribs", "update_names",
-        "disable_oblique_bits", "update_font_version", "update_gasp", "mkdir",
-        "update_psname_and_fullname", "android_and_cros_vert_metrics",]
+from pathlib import Path
+from fontTools.ttLib import newTable
 
 
 def update_psname_and_fullname(ttfont, include_year=False):
@@ -22,10 +18,10 @@ def update_psname_and_fullname(ttfont, include_year=False):
     if include_year:
         year = date.today().year
         unique_id = f"Google:{full_name}:{year}"
-        ttfont['name'].setName(unique_id, 3,3,1,1033)
+        ttfont['name'].setName(unique_id, 3, 3, 1, 1033)
     else:
-        ttfont['name'].setName(full_name, 3,3,1,1033)
-    ttfont['name'].setName(full_name, 4,3,1,1033)
+        ttfont['name'].setName(full_name, 3, 3, 1, 1033)
+    ttfont['name'].setName(full_name, 4, 3, 1, 1033)
 
 
 def update_attribs(font, **kwargs):
@@ -53,16 +49,6 @@ def disable_oblique_bits(font):
         font['OS/2'].fsSelection ^= 512
 
 
-def enable_bold_bits(font):
-    # Enable Bold bits for Black styles
-    if "Black" in font_path and "fvar" not in font:
-        if "Italic" in font_path:
-            font["OS/2"].fsSelection |= 32
-        else:
-            font["OS/2"].fsSelection ^= 64 | 32
-        font["head"].macStyle |= 1
-
-
 def update_font_version(font):
     version_record = 'Version %s; %d' % (round(font['head'].fontRevision, 3), date.today().year)
     font['name'].setName(version_record, 5, 3, 1, 1033)
@@ -75,12 +61,14 @@ def update_gasp(font, gasp_ranges):
 
 
 def mkdir(path):
-    if os.path.isdir(path):
+    path = Path(path)
+    if path.is_dir():
         shutil.rmtree(path)
-    os.mkdir(path)
+    path.mkdir(parents=True)
+    return path
 
 
-android_and_cros_vert_metrics = {
+ANDROID_AND_CROS_VERT_METRICS = {
     "ascent": 1900,
     "descent": -500,
     "lineGap": 0,
@@ -92,4 +80,3 @@ android_and_cros_vert_metrics = {
     "yMin": -555,
     "yMax": 2163,
 }
-

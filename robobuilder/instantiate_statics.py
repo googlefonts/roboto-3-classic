@@ -1,16 +1,12 @@
+"""Create static font instances from a variable font."""
 import sys
-import shutil
-import os
+from pathlib import Path
 from fontTools.ttLib import TTFont
 from fontTools.varLib.instancer import instantiateVariableFont
-from scripts import (
-    update_names,
-    update_attribs,
-    mkdir
-)
+from robobuilder.utils import update_names, update_attribs
 
 
-instances = [
+INSTANCES = [
     {
         "attribs": {"fsSelection": 64, "macStyle": 0, "usWeightClass": 250},
         "axes": {"ital": 0.0, "wdth": 100, "wght": 100},
@@ -108,7 +104,7 @@ instances = [
         },
     },
     {
-            "attribs": {"fsSelection": 64, "macStyle": 0, "usWeightClass": 400, "usWidthClass": 3},
+        "attribs": {"fsSelection": 64, "macStyle": 0, "usWeightClass": 400, "usWidthClass": 3},
         "axes": {"ital": 0.0, "wdth": 75.0, "wght": 400},
         "filename": "RobotoCondensed-Regular.ttf",
         "names": {
@@ -278,14 +274,19 @@ instances = [
 ]
 
 
-vf = TTFont(sys.argv[1])
-out_dir = mkdir(sys.argv[2])
+def main(vf_path, out_dir):
+    out_dir = Path(out_dir)
+    out_dir.mkdir(parents=True, exist_ok=True)
 
-for inst in instances:
-    print(f"Making {inst['filename']}")
-    instance = instantiateVariableFont(vf, inst["axes"])
-    update_attribs(instance, **inst["attribs"])
-    update_names(instance, **inst["names"])
-    del instance['STAT']
-    out_path = os.path.join(sys.argv[2], inst["filename"])
-    instance.save(out_path)
+    vf = TTFont(vf_path)
+    for inst in INSTANCES:
+        print(f"Making {inst['filename']}")
+        instance = instantiateVariableFont(vf, inst["axes"])
+        update_attribs(instance, **inst["attribs"])
+        update_names(instance, **inst["names"])
+        del instance['STAT']
+        instance.save(str(out_dir / inst["filename"]))
+
+
+if __name__ == "__main__":
+    main(sys.argv[1], sys.argv[2])
